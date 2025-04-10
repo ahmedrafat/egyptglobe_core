@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "doctype": "DocType",
+    "name": "Salt Specification",
+    "module": "Salt",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "salt_type",
+        "label": "Salt Type",
+        "fieldtype": "Select",
+        "options": "Sea\nRock\nLake\nVacuum"
+      },
+      {
+        "fieldname": "purity",
+        "label": "Purity (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "moisture",
+        "label": "Moisture (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "iodized",
+        "label": "Iodized",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Grain Batch",
+    "module": "Grains",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "grain_type",
+        "label": "Grain Type",
+        "fieldtype": "Select",
+        "options": "Wheat\nCorn\nBarley\nOats"
+      },
+      {
+        "fieldname": "harvest_date",
+        "label": "Harvest Date",
+        "fieldtype": "Date"
+      },
+      {
+        "fieldname": "origin_country",
+        "label": "Origin Country",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "moisture_content",
+        "label": "Moisture Content (%)",
+        "fieldtype": "Float"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Fertilizer Composition",
+    "module": "Fertilizers",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "fertilizer_type",
+        "label": "Fertilizer Type",
+        "fieldtype": "Select",
+        "options": "NPK\nUrea\nDAP\nOrganic"
+      },
+      {
+        "fieldname": "nitrogen",
+        "label": "Nitrogen (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "phosphorus",
+        "label": "Phosphorus (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "potassium",
+        "label": "Potassium (%)",
+        "fieldtype": "Float"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Port Shipment",
+    "module": "Logistics",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "shipment_id",
+        "label": "Shipment ID",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "departure_port",
+        "label": "Departure Port",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "arrival_port",
+        "label": "Arrival Port",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "departure_date",
+        "label": "Departure Date",
+        "fieldtype": "Date"
+      },
+      {
+        "fieldname": "arrival_date",
+        "label": "Arrival Date",
+        "fieldtype": "Date"
+      }
+    ]
+  }
+]
