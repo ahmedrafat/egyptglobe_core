@@ -18,6 +18,5 @@ fixtures = [
     "Workflow",
     "Dashboard",
     "Workspace",
-    "Translation",
     {"dt": "DocType", "filters": [["custom", "=", 1]]}
 ]
