@@ -1,7 +1,7 @@
 import frappe
-from frappe.utils import scrub
+from frappe.utils.naming import scrub
 
-def execute():
+def create_pages_for_custom_doctypes():
     custom_doctypes = frappe.get_all("DocType", filters={"custom": 1}, pluck="name")
     for dt in custom_doctypes:
         route = f"app/{scrub(dt)}"
