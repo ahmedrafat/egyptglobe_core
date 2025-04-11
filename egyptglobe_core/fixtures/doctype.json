@@ -3,7 +3,7 @@
     "doctype": "DocType",
     "name": "Salt Specification",
     "module": "Salt",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "salt_type",
@@ -125,7 +125,7 @@
     "doctype": "DocType",
     "name": "Fertilizer Product",
     "module": "Fertilizers",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "product_type",
@@ -247,7 +247,7 @@
     "doctype": "DocType",
     "name": "Grain Batch",
     "module": "Grains",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "grain_type",
@@ -363,7 +363,7 @@
     "doctype": "DocType",
     "name": "Machinery Product",
     "module": "Machinery",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "model_name",
@@ -479,7 +479,7 @@
     "doctype": "DocType",
     "name": "Port Shipment",
     "module": "Logistics",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "port_name",
@@ -595,7 +595,7 @@
     "doctype": "DocType",
     "name": "Chemical Product",
     "module": "Chemicals",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "chemical_name",
@@ -706,7 +706,7 @@
     "doctype": "DocType",
     "name": "Cotton Product",
     "module": "Cotton Products",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "cotton_type",
@@ -822,7 +822,7 @@
     "doctype": "DocType",
     "name": "Animal Nutrition Product",
     "module": "Animal Nutrition",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "product_name",
@@ -938,7 +938,7 @@
     "doctype": "DocType",
     "name": "Furniture Item",
     "module": "Furniture",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "item_name",
@@ -1054,7 +1054,7 @@
     "doctype": "DocType",
     "name": "Fruit or Vegetable",
     "module": "Fruits and Vegetables",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "product_name",
@@ -1171,7 +1171,7 @@
     "doctype": "DocType",
     "name": "Herbal Product",
     "module": "Oil and Herbs",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "herb_name",
@@ -1288,7 +1288,7 @@
     "doctype": "DocType",
     "name": "Warehouse",
     "module": "Warehousing",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "warehouse_name",
@@ -1398,7 +1398,7 @@
     "doctype": "DocType",
     "name": "Packaging Specification",
     "module": "Packaging",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "package_type",
@@ -1510,7 +1510,7 @@
     "doctype": "DocType",
     "name": "Quality Test Result",
     "module": "QA and Lab Testing",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "product",
@@ -1627,7 +1627,7 @@
     "doctype": "DocType",
     "name": "Trade Regulation",
     "module": "Trade and Compliance",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "country",
@@ -1732,7 +1732,7 @@
     "doctype": "DocType",
     "name": "Certification Document",
     "module": "Certifications",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "certification_type",
@@ -1849,7 +1849,7 @@
     "doctype": "DocType",
     "name": "Sales Order B2B",
     "module": "Retail and Orders",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "customer_name",
@@ -1960,7 +1960,7 @@
     "doctype": "DocType",
     "name": "Product Costing",
     "module": "Finance",
-    "custom": 1,
+    "custom": 0,
     "fields": [
       {
         "fieldname": "product",
