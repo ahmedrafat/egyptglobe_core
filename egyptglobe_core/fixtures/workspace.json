@@ -1,1 +1,344 @@
-[]
+[
+  {
+    "doctype": "Workspace",
+    "module": "Salt",
+    "label": "Salt",
+    "name": "salt",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Salt",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Salt Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Fertilizers",
+    "label": "Fertilizers",
+    "name": "fertilizers",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Fertilizers",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Fertilizer Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Machinery",
+    "label": "Machinery",
+    "name": "machinery",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Machinery",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Machinery Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Logistics",
+    "label": "Logistics",
+    "name": "logistics",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Logistics",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Logistic Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Grains",
+    "label": "Grains",
+    "name": "grains",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Grains",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Grain Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Chemicals",
+    "label": "Chemicals",
+    "name": "chemicals",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Chemicals",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Chemical Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Cotton Products",
+    "label": "Cotton Products",
+    "name": "cotton-products",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Cotton Products",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Cotton Product Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Animal Nutrition",
+    "label": "Animal Nutrition",
+    "name": "animal-nutrition",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Animal Nutrition",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Animal Nutrition Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Furniture",
+    "label": "Furniture",
+    "name": "furniture",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Furniture",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Furniture Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Fruits and Vegetables",
+    "label": "Fruits and Vegetables",
+    "name": "fruits-and-vegetables",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Fruits and Vegetables",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Fruits and Vegetable Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Oil and Herbs",
+    "label": "Oil and Herbs",
+    "name": "oil-and-herbs",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Oil and Herbs",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Oil and Herb Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Warehousing",
+    "label": "Warehousing",
+    "name": "warehousing",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Warehousing",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Warehousing Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Packaging",
+    "label": "Packaging",
+    "name": "packaging",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Packaging",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Packaging Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "QA and Lab Testing",
+    "label": "QA and Lab Testing",
+    "name": "qa-and-lab-testing",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "QA and Lab Testing",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "QA and Lab Testing Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Trade and Compliance",
+    "label": "Trade and Compliance",
+    "name": "trade-and-compliance",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Trade and Compliance",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Trade and Compliance Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Certifications",
+    "label": "Certifications",
+    "name": "certifications",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Certifications",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Certification Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Retail and Orders",
+    "label": "Retail and Orders",
+    "name": "retail-and-orders",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Retail and Orders",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Retail and Order Product"
+        }
+      ]
+    }
+  },
+  {
+    "doctype": "Workspace",
+    "module": "Finance",
+    "label": "Finance",
+    "name": "finance",
+    "public": 1,
+    "onboarding": 0,
+    "is_standard": 1,
+    "content": {
+      "block": "Card",
+      "label": "Finance",
+      "items": [
+        {
+          "type": "doctype",
+          "name": "Finance Product"
+        }
+      ]
+    }
+  }
+]
