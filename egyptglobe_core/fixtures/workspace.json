@@ -9,14 +9,23 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Salt",
+      "label": "Salt Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Salt Product"
+          "name": "Salt Specification"
+        },
+        {
+          "type": "doctype",
+          "name": "Warehouse"
+        },
+        {
+          "type": "doctype",
+          "name": "Quality Test Result"
         }
       ]
-    }
+    },
+    "title": "Salt"
   },
   {
     "doctype": "Workspace",
@@ -28,14 +37,23 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Fertilizers",
+      "label": "Fertilizers Management",
       "items": [
         {
           "type": "doctype",
           "name": "Fertilizer Product"
+        },
+        {
+          "type": "doctype",
+          "name": "Packaging Specification"
+        },
+        {
+          "type": "doctype",
+          "name": "Trade Regulation"
         }
       ]
-    }
+    },
+    "title": "Fertilizers"
   },
   {
     "doctype": "Workspace",
@@ -47,14 +65,19 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Machinery",
+      "label": "Machinery Management",
       "items": [
         {
           "type": "doctype",
           "name": "Machinery Product"
+        },
+        {
+          "type": "doctype",
+          "name": "Certification Document"
         }
       ]
-    }
+    },
+    "title": "Machinery"
   },
   {
     "doctype": "Workspace",
@@ -66,14 +89,19 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Logistics",
+      "label": "Logistics Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Logistic Product"
+          "name": "Port Shipment"
+        },
+        {
+          "type": "doctype",
+          "name": "Warehouse"
         }
       ]
-    }
+    },
+    "title": "Logistics"
   },
   {
     "doctype": "Workspace",
@@ -85,14 +113,23 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Grains",
+      "label": "Grains Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Grain Product"
+          "name": "Grain Batch"
+        },
+        {
+          "type": "doctype",
+          "name": "Warehouse"
+        },
+        {
+          "type": "doctype",
+          "name": "Trade Regulation"
         }
       ]
-    }
+    },
+    "title": "Grains"
   },
   {
     "doctype": "Workspace",
@@ -104,14 +141,23 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Chemicals",
+      "label": "Chemicals Management",
       "items": [
         {
           "type": "doctype",
           "name": "Chemical Product"
+        },
+        {
+          "type": "doctype",
+          "name": "Quality Test Result"
+        },
+        {
+          "type": "doctype",
+          "name": "Certification Document"
         }
       ]
-    }
+    },
+    "title": "Chemicals"
   },
   {
     "doctype": "Workspace",
@@ -123,14 +169,19 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Cotton Products",
+      "label": "Cotton Products Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Cotton Product Product"
+          "name": "Cotton Product"
+        },
+        {
+          "type": "doctype",
+          "name": "Packaging Specification"
         }
       ]
-    }
+    },
+    "title": "Cotton Products"
   },
   {
     "doctype": "Workspace",
@@ -142,14 +193,19 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Animal Nutrition",
+      "label": "Animal Nutrition Management",
       "items": [
         {
           "type": "doctype",
           "name": "Animal Nutrition Product"
+        },
+        {
+          "type": "doctype",
+          "name": "Quality Test Result"
         }
       ]
-    }
+    },
+    "title": "Animal Nutrition"
   },
   {
     "doctype": "Workspace",
@@ -161,14 +217,19 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Furniture",
+      "label": "Furniture Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Furniture Product"
+          "name": "Furniture Item"
+        },
+        {
+          "type": "doctype",
+          "name": "Certification Document"
         }
       ]
-    }
+    },
+    "title": "Furniture"
   },
   {
     "doctype": "Workspace",
@@ -180,14 +241,23 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Fruits and Vegetables",
+      "label": "Fruits and Vegetables Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Fruits and Vegetable Product"
+          "name": "Fruit or Vegetable"
+        },
+        {
+          "type": "doctype",
+          "name": "Packaging Specification"
+        },
+        {
+          "type": "doctype",
+          "name": "Warehouse"
         }
       ]
-    }
+    },
+    "title": "Fruits and Vegetables"
   },
   {
     "doctype": "Workspace",
@@ -199,14 +269,23 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Oil and Herbs",
+      "label": "Oil and Herbs Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Oil and Herb Product"
+          "name": "Herbal Product"
+        },
+        {
+          "type": "doctype",
+          "name": "Certification Document"
+        },
+        {
+          "type": "doctype",
+          "name": "Trade Regulation"
         }
       ]
-    }
+    },
+    "title": "Oil and Herbs"
   },
   {
     "doctype": "Workspace",
@@ -218,14 +297,19 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Warehousing",
+      "label": "Warehousing Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Warehousing Product"
+          "name": "Warehouse"
+        },
+        {
+          "type": "doctype",
+          "name": "Storage Conditions"
         }
       ]
-    }
+    },
+    "title": "Warehousing"
   },
   {
     "doctype": "Workspace",
@@ -237,14 +321,19 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Packaging",
+      "label": "Packaging Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Packaging Product"
+          "name": "Packaging Specification"
+        },
+        {
+          "type": "doctype",
+          "name": "Trade Regulation"
         }
       ]
-    }
+    },
+    "title": "Packaging"
   },
   {
     "doctype": "Workspace",
@@ -256,14 +345,19 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "QA and Lab Testing",
+      "label": "QA and Lab Testing Management",
       "items": [
         {
           "type": "doctype",
-          "name": "QA and Lab Testing Product"
+          "name": "Quality Test Result"
+        },
+        {
+          "type": "doctype",
+          "name": "Certification Document"
         }
       ]
-    }
+    },
+    "title": "QA and Lab Testing"
   },
   {
     "doctype": "Workspace",
@@ -275,14 +369,19 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Trade and Compliance",
+      "label": "Trade and Compliance Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Trade and Compliance Product"
+          "name": "Trade Regulation"
+        },
+        {
+          "type": "doctype",
+          "name": "Certification Document"
         }
       ]
-    }
+    },
+    "title": "Trade and Compliance"
   },
   {
     "doctype": "Workspace",
@@ -294,14 +393,15 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Certifications",
+      "label": "Certifications Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Certification Product"
+          "name": "Certification Document"
         }
       ]
-    }
+    },
+    "title": "Certifications"
   },
   {
     "doctype": "Workspace",
@@ -313,14 +413,19 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Retail and Orders",
+      "label": "Retail and Orders Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Retail and Order Product"
+          "name": "Sales Order B2B"
+        },
+        {
+          "type": "doctype",
+          "name": "Customer"
         }
       ]
-    }
+    },
+    "title": "Retail and Orders"
   },
   {
     "doctype": "Workspace",
@@ -332,13 +437,18 @@
     "is_standard": 1,
     "content": {
       "block": "Card",
-      "label": "Finance",
+      "label": "Finance Management",
       "items": [
         {
           "type": "doctype",
-          "name": "Finance Product"
+          "name": "Product Costing"
+        },
+        {
+          "type": "doctype",
+          "name": "Sales Invoice"
         }
       ]
-    }
+    },
+    "title": "Finance"
   }
 ]
