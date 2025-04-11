@@ -1,0 +1,1 @@
+egyptglobe_core.patches.create_pages_for_custom_doctypes
