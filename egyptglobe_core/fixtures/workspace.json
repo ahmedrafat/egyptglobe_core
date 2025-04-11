@@ -8,7 +8,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Salt Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Salt Specification\"}, {\"type\": \"doctype\", \"name\": \"Warehouse\"}, {\"type\": \"doctype\", \"name\": \"Quality Test Result\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Salt Management\", \"items\": [{\"type\": \"link\", \"label\": \"Salt Specification\", \"link_to\": \"List/Salt Specification\"}, {\"type\": \"link\", \"label\": \"Warehouse\", \"link_to\": \"List/Warehouse\"}, {\"type\": \"link\", \"label\": \"Quality Test Result\", \"link_to\": \"List/Quality Test Result\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -19,7 +19,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Fertilizers Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Fertilizer Product\"}, {\"type\": \"doctype\", \"name\": \"Packaging Specification\"}, {\"type\": \"doctype\", \"name\": \"Trade Regulation\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Fertilizers Management\", \"items\": [{\"type\": \"link\", \"label\": \"Fertilizer Product\", \"link_to\": \"List/Fertilizer Product\"}, {\"type\": \"link\", \"label\": \"Packaging Specification\", \"link_to\": \"List/Packaging Specification\"}, {\"type\": \"link\", \"label\": \"Trade Regulation\", \"link_to\": \"List/Trade Regulation\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -30,7 +30,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Machinery Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Machinery Product\"}, {\"type\": \"doctype\", \"name\": \"Certification Document\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Machinery Management\", \"items\": [{\"type\": \"link\", \"label\": \"Machinery Product\", \"link_to\": \"List/Machinery Product\"}, {\"type\": \"link\", \"label\": \"Certification Document\", \"link_to\": \"List/Certification Document\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -41,7 +41,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Logistics Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Port Shipment\"}, {\"type\": \"doctype\", \"name\": \"Warehouse\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Logistics Management\", \"items\": [{\"type\": \"link\", \"label\": \"Port Shipment\", \"link_to\": \"List/Port Shipment\"}, {\"type\": \"link\", \"label\": \"Freight Plan\", \"link_to\": \"List/Freight Plan\"}, {\"type\": \"link\", \"label\": \"Container Movement\", \"link_to\": \"List/Container Movement\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -52,7 +52,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Grains Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Grain Batch\"}, {\"type\": \"doctype\", \"name\": \"Warehouse\"}, {\"type\": \"doctype\", \"name\": \"Trade Regulation\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Grains Management\", \"items\": [{\"type\": \"link\", \"label\": \"Grain Batch\", \"link_to\": \"List/Grain Batch\"}, {\"type\": \"link\", \"label\": \"Warehouse\", \"link_to\": \"List/Warehouse\"}, {\"type\": \"link\", \"label\": \"Trade Regulation\", \"link_to\": \"List/Trade Regulation\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -63,7 +63,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Chemicals Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Chemical Product\"}, {\"type\": \"doctype\", \"name\": \"Quality Test Result\"}, {\"type\": \"doctype\", \"name\": \"Certification Document\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Chemicals Management\", \"items\": [{\"type\": \"link\", \"label\": \"Chemical Product\", \"link_to\": \"List/Chemical Product\"}, {\"type\": \"link\", \"label\": \"Quality Test Result\", \"link_to\": \"List/Quality Test Result\"}, {\"type\": \"link\", \"label\": \"Certification Document\", \"link_to\": \"List/Certification Document\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -74,7 +74,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Cotton Products Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Cotton Product\"}, {\"type\": \"doctype\", \"name\": \"Packaging Specification\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Cotton Products Management\", \"items\": [{\"type\": \"link\", \"label\": \"Cotton Product\", \"link_to\": \"List/Cotton Product\"}, {\"type\": \"link\", \"label\": \"Packaging Specification\", \"link_to\": \"List/Packaging Specification\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -85,7 +85,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Animal Nutrition Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Animal Nutrition Product\"}, {\"type\": \"doctype\", \"name\": \"Quality Test Result\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Animal Nutrition Management\", \"items\": [{\"type\": \"link\", \"label\": \"Animal Nutrition Product\", \"link_to\": \"List/Animal Nutrition Product\"}, {\"type\": \"link\", \"label\": \"Quality Test Result\", \"link_to\": \"List/Quality Test Result\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -96,7 +96,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Furniture Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Furniture Item\"}, {\"type\": \"doctype\", \"name\": \"Certification Document\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Furniture Management\", \"items\": [{\"type\": \"link\", \"label\": \"Furniture Item\", \"link_to\": \"List/Furniture Item\"}, {\"type\": \"link\", \"label\": \"Certification Document\", \"link_to\": \"List/Certification Document\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -107,7 +107,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Fruits and Vegetables Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Fruit or Vegetable\"}, {\"type\": \"doctype\", \"name\": \"Packaging Specification\"}, {\"type\": \"doctype\", \"name\": \"Warehouse\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Fruits and Vegetables Management\", \"items\": [{\"type\": \"link\", \"label\": \"Fruit or Vegetable\", \"link_to\": \"List/Fruit or Vegetable\"}, {\"type\": \"link\", \"label\": \"Packaging Specification\", \"link_to\": \"List/Packaging Specification\"}, {\"type\": \"link\", \"label\": \"Warehouse\", \"link_to\": \"List/Warehouse\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -118,7 +118,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Oil and Herbs Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Herbal Product\"}, {\"type\": \"doctype\", \"name\": \"Certification Document\"}, {\"type\": \"doctype\", \"name\": \"Trade Regulation\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Oil and Herbs Management\", \"items\": [{\"type\": \"link\", \"label\": \"Herbal Product\", \"link_to\": \"List/Herbal Product\"}, {\"type\": \"link\", \"label\": \"Certification Document\", \"link_to\": \"List/Certification Document\"}, {\"type\": \"link\", \"label\": \"Trade Regulation\", \"link_to\": \"List/Trade Regulation\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -129,7 +129,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Warehousing Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Warehouse\"}, {\"type\": \"doctype\", \"name\": \"Storage Conditions\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Warehousing Management\", \"items\": [{\"type\": \"link\", \"label\": \"Warehouse\", \"link_to\": \"List/Warehouse\"}, {\"type\": \"link\", \"label\": \"Storage Conditions\", \"link_to\": \"List/Storage Conditions\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -140,7 +140,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Packaging Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Packaging Specification\"}, {\"type\": \"doctype\", \"name\": \"Trade Regulation\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Packaging Management\", \"items\": [{\"type\": \"link\", \"label\": \"Packaging Specification\", \"link_to\": \"List/Packaging Specification\"}, {\"type\": \"link\", \"label\": \"Trade Regulation\", \"link_to\": \"List/Trade Regulation\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -151,7 +151,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"QA and Lab Testing Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Quality Test Result\"}, {\"type\": \"doctype\", \"name\": \"Certification Document\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"QA and Lab Testing Management\", \"items\": [{\"type\": \"link\", \"label\": \"Quality Test Result\", \"link_to\": \"List/Quality Test Result\"}, {\"type\": \"link\", \"label\": \"Certification Document\", \"link_to\": \"List/Certification Document\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -162,7 +162,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Trade and Compliance Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Trade Regulation\"}, {\"type\": \"doctype\", \"name\": \"Certification Document\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Trade and Compliance Management\", \"items\": [{\"type\": \"link\", \"label\": \"Trade Regulation\", \"link_to\": \"List/Trade Regulation\"}, {\"type\": \"link\", \"label\": \"Certification Document\", \"link_to\": \"List/Certification Document\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -173,7 +173,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Certifications Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Certification Document\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Certifications Management\", \"items\": [{\"type\": \"link\", \"label\": \"Certification Document\", \"link_to\": \"List/Certification Document\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -184,7 +184,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Retail and Orders Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Sales Order B2B\"}, {\"type\": \"doctype\", \"name\": \"Customer\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Retail and Orders Management\", \"items\": [{\"type\": \"link\", \"label\": \"Sales Order B2B\", \"link_to\": \"List/Sales Order B2B\"}, {\"type\": \"link\", \"label\": \"Customer\", \"link_to\": \"List/Customer\"}]}]"
   },
   {
     "doctype": "Workspace",
@@ -195,6 +195,6 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Finance Management\", \"items\": [{\"type\": \"doctype\", \"name\": \"Product Costing\"}, {\"type\": \"doctype\", \"name\": \"Sales Invoice\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Finance Management\", \"items\": [{\"type\": \"link\", \"label\": \"Product Costing\", \"link_to\": \"List/Product Costing\"}, {\"type\": \"link\", \"label\": \"Sales Invoice\", \"link_to\": \"List/Sales Invoice\"}]}]"
   }
 ]
