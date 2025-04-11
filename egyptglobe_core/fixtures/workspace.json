@@ -63,7 +63,7 @@
     "public": 1,
     "onboarding": 0,
     "is_standard": 1,
-    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Chemicals Management\", \"items\": [{\"type\": \"link\", \"label\": \"Chemical Product\", \"link_to\": \"List/Chemical Product\"}, {\"type\": \"link\", \"label\": \"Quality Test Result\", \"link_to\": \"List/Quality Test Result\"}, {\"type\": \"link\", \"label\": \"Certification Document\", \"link_to\": \"List/Certification Document\"}]}]"
+    "content": "[{\"type\": \"card\", \"block\": \"Card\", \"label\": \"Chemicals Management\", \"items\": [{\"type\": \"link\", \"label\": \"Chemical Product\", \"link_to\": \"List/Chemical Product\"}, {\"type\": \"link\", \"label\": \"Handling Instruction\", \"link_to\": \"List/Handling Instruction\"}]}]"
   },
   {
     "doctype": "Workspace",
