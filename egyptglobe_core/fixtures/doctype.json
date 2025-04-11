@@ -3,7 +3,7 @@
     "doctype": "DocType",
     "name": "Salt Specification",
     "module": "Salt",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "salt_type",
@@ -125,7 +125,7 @@
     "doctype": "DocType",
     "name": "Fertilizer Product",
     "module": "Fertilizers",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "product_type",
@@ -247,7 +247,7 @@
     "doctype": "DocType",
     "name": "Grain Batch",
     "module": "Grains",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "grain_type",
@@ -363,7 +363,7 @@
     "doctype": "DocType",
     "name": "Machinery Product",
     "module": "Machinery",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "model_name",
@@ -479,7 +479,7 @@
     "doctype": "DocType",
     "name": "Port Shipment",
     "module": "Logistics",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "port_name",
@@ -595,7 +595,7 @@
     "doctype": "DocType",
     "name": "Chemical Product",
     "module": "Chemicals",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "chemical_name",
@@ -706,7 +706,7 @@
     "doctype": "DocType",
     "name": "Cotton Product",
     "module": "Cotton Products",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "cotton_type",
@@ -822,7 +822,7 @@
     "doctype": "DocType",
     "name": "Animal Nutrition Product",
     "module": "Animal Nutrition",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "product_name",
@@ -938,7 +938,7 @@
     "doctype": "DocType",
     "name": "Furniture Item",
     "module": "Furniture",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "item_name",
@@ -1054,7 +1054,7 @@
     "doctype": "DocType",
     "name": "Fruit or Vegetable",
     "module": "Fruits and Vegetables",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "product_name",
@@ -1171,7 +1171,7 @@
     "doctype": "DocType",
     "name": "Herbal Product",
     "module": "Oil and Herbs",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "herb_name",
@@ -1288,7 +1288,7 @@
     "doctype": "DocType",
     "name": "Warehouse",
     "module": "Warehousing",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "warehouse_name",
@@ -1398,7 +1398,7 @@
     "doctype": "DocType",
     "name": "Packaging Specification",
     "module": "Packaging",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "package_type",
@@ -1510,7 +1510,7 @@
     "doctype": "DocType",
     "name": "Quality Test Result",
     "module": "QA and Lab Testing",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "product",
@@ -1627,7 +1627,7 @@
     "doctype": "DocType",
     "name": "Trade Regulation",
     "module": "Trade and Compliance",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "country",
@@ -1732,7 +1732,7 @@
     "doctype": "DocType",
     "name": "Certification Document",
     "module": "Certifications",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "certification_type",
@@ -1849,7 +1849,7 @@
     "doctype": "DocType",
     "name": "Sales Order B2B",
     "module": "Retail and Orders",
-    "custom": 0,
+    "custom": 1,
     "fields": [
       {
         "fieldname": "customer_name",
@@ -1960,7 +1960,2076 @@
     "doctype": "DocType",
     "name": "Product Costing",
     "module": "Finance",
-    "custom": 0,
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "product",
+        "label": "Product",
+        "fieldtype": "Link",
+        "options": "Item"
+      },
+      {
+        "fieldname": "cost_per_unit",
+        "label": "Cost per Unit",
+        "fieldtype": "Currency"
+      },
+      {
+        "fieldname": "currency",
+        "label": "Currency",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "last_updated",
+        "label": "Last Updated",
+        "fieldtype": "Date"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  }
+][
+  {
+    "doctype": "DocType",
+    "name": "Salt Specification",
+    "module": "Salt",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "salt_type",
+        "label": "Salt Type",
+        "fieldtype": "Select",
+        "options": "Sea\nRock\nLake\nVacuum"
+      },
+      {
+        "fieldname": "purity",
+        "label": "Purity (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "moisture",
+        "label": "Moisture (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "iodized",
+        "label": "Iodized",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "packaging_type",
+        "label": "Packaging Type",
+        "fieldtype": "Select",
+        "options": "PP\nPE\nBulk"
+      },
+      {
+        "fieldname": "certification_ref",
+        "label": "Certification Ref",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Fertilizer Product",
+    "module": "Fertilizers",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "product_type",
+        "label": "Fertilizer Type",
+        "fieldtype": "Select",
+        "options": "Urea\nDAP\nNPK\nOrganic"
+      },
+      {
+        "fieldname": "composition",
+        "label": "Composition",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "nitrogen_content",
+        "label": "Nitrogen (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "phosphorus_content",
+        "label": "Phosphorus (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "potassium_content",
+        "label": "Potassium (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "packaging",
+        "label": "Packaging",
+        "fieldtype": "Select",
+        "options": "Bag\nBulk\nDrum"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Grain Batch",
+    "module": "Grains",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "grain_type",
+        "label": "Grain Type",
+        "fieldtype": "Select",
+        "options": "Wheat\nCorn\nBarley\nRice"
+      },
+      {
+        "fieldname": "origin",
+        "label": "Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "moisture_content",
+        "label": "Moisture Content (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "harvest_date",
+        "label": "Harvest Date",
+        "fieldtype": "Date"
+      },
+      {
+        "fieldname": "weight",
+        "label": "Weight (MT)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Machinery Product",
+    "module": "Machinery",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "model_name",
+        "label": "Model Name",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "capacity",
+        "label": "Capacity",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "power_rating",
+        "label": "Power Rating",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "control_system",
+        "label": "Control System",
+        "fieldtype": "Select",
+        "options": "Manual\nPLC\nHMI"
+      },
+      {
+        "fieldname": "cad_drawing_ref",
+        "label": "CAD Drawing Ref",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Port Shipment",
+    "module": "Logistics",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "port_name",
+        "label": "Port Name",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "shipment_date",
+        "label": "Shipment Date",
+        "fieldtype": "Date"
+      },
+      {
+        "fieldname": "vessel_name",
+        "label": "Vessel Name",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "cargo_type",
+        "label": "Cargo Type",
+        "fieldtype": "Select",
+        "options": "Salt\nFertilizer\nMachinery\nGrain"
+      },
+      {
+        "fieldname": "quantity",
+        "label": "Quantity (MT)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Chemical Product",
+    "module": "Chemicals",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "chemical_name",
+        "label": "Chemical Name",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "formula",
+        "label": "Formula",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hazard_class",
+        "label": "Hazard Class",
+        "fieldtype": "Select",
+        "options": "None\nCorrosive\nFlammable\nToxic"
+      },
+      {
+        "fieldname": "storage_instructions",
+        "label": "Storage Instructions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Cotton Product",
+    "module": "Cotton Products",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "cotton_type",
+        "label": "Cotton Type",
+        "fieldtype": "Select",
+        "options": "Raw\nProcessed\nLint"
+      },
+      {
+        "fieldname": "grade",
+        "label": "Grade",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "origin",
+        "label": "Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "length",
+        "label": "Length (mm)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "moisture",
+        "label": "Moisture (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Animal Nutrition Product",
+    "module": "Animal Nutrition",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "product_name",
+        "label": "Product Name",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "animal_type",
+        "label": "Animal Type",
+        "fieldtype": "Select",
+        "options": "Cattle\nSheep\nGoat\nPoultry"
+      },
+      {
+        "fieldname": "ingredients",
+        "label": "Ingredients",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "protein_content",
+        "label": "Protein (%)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "energy_content",
+        "label": "Energy (kcal/kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Furniture Item",
+    "module": "Furniture",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "item_name",
+        "label": "Item Name",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "material",
+        "label": "Material",
+        "fieldtype": "Select",
+        "options": "Wood\nMetal\nPlastic\nComposite"
+      },
+      {
+        "fieldname": "dimensions",
+        "label": "Dimensions (LxWxH)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "weight",
+        "label": "Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "finish",
+        "label": "Finish",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Fruit or Vegetable",
+    "module": "Fruits and Vegetables",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "product_name",
+        "label": "Name",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "category",
+        "label": "Category",
+        "fieldtype": "Select",
+        "options": "Fruit\nVegetable"
+      },
+      {
+        "fieldname": "harvest_date",
+        "label": "Harvest Date",
+        "fieldtype": "Date"
+      },
+      {
+        "fieldname": "origin",
+        "label": "Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "packaging_type",
+        "label": "Packaging Type",
+        "fieldtype": "Select",
+        "options": "Box\nCrate\nBag\nBulk"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Herbal Product",
+    "module": "Oil and Herbs",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "herb_name",
+        "label": "Herb Name",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "form",
+        "label": "Form",
+        "fieldtype": "Select",
+        "options": "Dry\nFresh\nOil\nExtract"
+      },
+      {
+        "fieldname": "uses",
+        "label": "Uses",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "origin",
+        "label": "Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "packaging",
+        "label": "Packaging",
+        "fieldtype": "Select",
+        "options": "Bag\nBox\nBottle\nBulk"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Warehouse",
+    "module": "Warehousing",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "warehouse_name",
+        "label": "Warehouse Name",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "location",
+        "label": "Location",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "capacity_mt",
+        "label": "Capacity (MT)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "temperature_controlled",
+        "label": "Temperature Controlled",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Packaging Specification",
+    "module": "Packaging",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "package_type",
+        "label": "Package Type",
+        "fieldtype": "Select",
+        "options": "Bag\nBox\nDrum\nBulk"
+      },
+      {
+        "fieldname": "material",
+        "label": "Material",
+        "fieldtype": "Select",
+        "options": "PP\nPE\nJute\nPaper"
+      },
+      {
+        "fieldname": "size",
+        "label": "Size (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "recyclable",
+        "label": "Recyclable",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Quality Test Result",
+    "module": "QA and Lab Testing",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "product",
+        "label": "Product",
+        "fieldtype": "Link",
+        "options": "Item"
+      },
+      {
+        "fieldname": "test_type",
+        "label": "Test Type",
+        "fieldtype": "Select",
+        "options": "COA\nTDS\nILAC"
+      },
+      {
+        "fieldname": "test_result",
+        "label": "Test Result",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "tested_by",
+        "label": "Tested By",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "test_date",
+        "label": "Test Date",
+        "fieldtype": "Date"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Trade Regulation",
+    "module": "Trade and Compliance",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "country",
+        "label": "Country",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "restriction_notes",
+        "label": "Restriction Notes",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "compliance_required",
+        "label": "Compliance Required",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Certification Document",
+    "module": "Certifications",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "certification_type",
+        "label": "Certification Type",
+        "fieldtype": "Select",
+        "options": "ISO\nILAC\nOrganic\nHalal\nGS1"
+      },
+      {
+        "fieldname": "product",
+        "label": "Product",
+        "fieldtype": "Link",
+        "options": "Item"
+      },
+      {
+        "fieldname": "issue_date",
+        "label": "Issue Date",
+        "fieldtype": "Date"
+      },
+      {
+        "fieldname": "expiry_date",
+        "label": "Expiry Date",
+        "fieldtype": "Date"
+      },
+      {
+        "fieldname": "certification_file",
+        "label": "Upload Certificate",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Sales Order B2B",
+    "module": "Retail and Orders",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "customer_name",
+        "label": "Customer Name",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "product",
+        "label": "Product",
+        "fieldtype": "Link",
+        "options": "Item"
+      },
+      {
+        "fieldname": "order_quantity",
+        "label": "Order Quantity",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "delivery_date",
+        "label": "Expected Delivery",
+        "fieldtype": "Date"
+      },
+      {
+        "fieldname": "internal_code",
+        "label": "Internal Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "sku",
+        "label": "SKU",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "barcode",
+        "label": "Barcode (GS1)",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "hs_code",
+        "label": "HS Code",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "country_of_origin",
+        "label": "Country of Origin",
+        "fieldtype": "Data"
+      },
+      {
+        "fieldname": "supplier",
+        "label": "Linked Supplier",
+        "fieldtype": "Link",
+        "options": "Supplier"
+      },
+      {
+        "fieldname": "warehouse",
+        "label": "Storage Warehouse",
+        "fieldtype": "Link",
+        "options": "Warehouse"
+      },
+      {
+        "fieldname": "coa_file",
+        "label": "COA File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "tds_file",
+        "label": "TDS File",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "test_report",
+        "label": "Test Report",
+        "fieldtype": "Attach"
+      },
+      {
+        "fieldname": "net_weight",
+        "label": "Net Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "gross_weight",
+        "label": "Gross Weight (kg)",
+        "fieldtype": "Float"
+      },
+      {
+        "fieldname": "storage_conditions",
+        "label": "Storage Conditions",
+        "fieldtype": "Small Text"
+      },
+      {
+        "fieldname": "is_active",
+        "label": "Is Active",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "is_exported",
+        "label": "Is Exported",
+        "fieldtype": "Check"
+      },
+      {
+        "fieldname": "requires_certification",
+        "label": "Requires Certification",
+        "fieldtype": "Check"
+      }
+    ]
+  },
+  {
+    "doctype": "DocType",
+    "name": "Product Costing",
+    "module": "Finance",
+    "custom": 1,
     "fields": [
       {
         "fieldname": "product",
