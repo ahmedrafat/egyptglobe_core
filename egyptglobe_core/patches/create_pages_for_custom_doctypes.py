@@ -1,17 +1,15 @@
 import frappe
-from frappe.utils.nestedset import scrub
+from frappe.utils.string_utils import scrub
+
 def execute():
     custom_doctypes = frappe.get_all("DocType", filters={"custom": 1}, pluck="name")
     for dt in custom_doctypes:
-        route = f"app/{scrub(dt)}"
-        if not frappe.db.exists("Page", {"route": route}):
+        if not frappe.db.exists("Page", scrub(dt)):
             frappe.get_doc({
                 "doctype": "Page",
+                "page_name": scrub(dt),
+                "module": frappe.get_doc("DocType", dt).module,
                 "title": dt,
-                "module": frappe.get_value("DocType", dt, "module"),
-                "name": scrub(dt),
-                "route": route,
-                "reference_doctype": dt,
-                "standard": "Yes"
+                "content": "",
+                "is_standard": 0
             }).insert(ignore_permissions=True)
-    frappe.db.commit()
